@@ -112,7 +112,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: center center;
   object-fit: contain;
-  background-color: red;
+  /* background-color: red; */
   margin: 0;
   height: 70vh;
   width: 100%;
