@@ -435,20 +435,20 @@ h4 {
 
 /* consult with doctor */
 .consultWithDoctor{
-  background-image: url("/Assets/Products/bg3.png");
-  /* height: 500px; */
+  /* background-color: red; */
+  background-image: url("bg3.png");
   width: 100%;
   padding: 0px 30px 0 30px;
   background-repeat: no-repeat;
-  background-size: 12%;
-  z-index: 1;
+  background-size: 15%;
+  /* z-index: 1; */
   background-position: bottom right ;
 }
 .consultWithDoctorCard{
   /* background-color: #F2F8E3; */
   z-index: 0;
   border-radius: 20px;
-  padding: 30px;
+  padding: 30px 0 0 30px;
 }
 
 .consultWithDoctorCard h3{
