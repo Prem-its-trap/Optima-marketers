@@ -386,24 +386,26 @@ h4 {
   text-align: left;
 }
 .desc > img{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .desc .card-title {
   font-family: "Ibarra Real Nova", serif;
   margin-bottom: 0 !important;
   font-weight: 700 !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 15px !important;
 }
 .desc .card-text {
   font-family: "Poppins", serif;
-  font-size: 14px;
+  font-size: 12px;
   text-align: justify;
+  margin-bottom: 15px !important;
 }
 .desc .productPrice{
   color: rgb(83, 112, 11);
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 0px !important;
 }
 
 .newProduct{
