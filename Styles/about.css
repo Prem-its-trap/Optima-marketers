@@ -104,7 +104,7 @@ h4 {
 .hersection{
   height: 100%;
   padding: 20px 40px;
-  background-image: url('/Assets/Carousel/hero2.jpg');
+  background-image: url('hero2.jpg');
   background-size:contain;
   background-repeat: no-repeat;
   background-position: right;
