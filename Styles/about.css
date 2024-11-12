@@ -21,10 +21,11 @@ h4 {
   z-index: 999;
   top: 0;
   left: 0;
-  background-color: #f3efef;
+  background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 0px;
+  box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar a {
@@ -141,7 +142,7 @@ h4 {
 .heroSectionContent{
   margin-top: 40px;
   text-align: justify;
-  width: 80%;
+  width: 50%;
 }
 .connectus{
   margin-top: 40px;
@@ -151,7 +152,7 @@ h4 {
 .connectus a{
   color: black;
   font-size: 17px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   text-decoration: none;
 }
 .connectus a:hover{
@@ -739,23 +740,51 @@ p{
   display: none;
 }
 .sidebarHeader > img {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  /* border-radius: 50%; */
+  height: 120px;
+  width: 200px;
 }
 .imgMobileBlock{
   display: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
+  .connectus{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: gold;
+    padding: 10px;
+    width: fit-content;
+  }
   .txts > img{
     height: 40px;
     width: 40px;
+  }
+  .case-timeline-divider{
+    display: none;
+  }
+  .case-timeline-dot{
+    display: none;
   }
 .consultWithDoctor{
   padding-left: 0;
   padding-right: 0;
 
+}
+.services .Card1{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.CardsSection{
+  margin-bottom: 0;
+}
+.heroSectionContent{
+  width: 100%;
+}
+.hersection{
+  /* filter: brightness(0.4); */
+  background-position: bottom;
 }
 .overlapColumn {
   width: 50%;
@@ -852,6 +881,10 @@ p{
   }
   .aboutProductsContainer {
     margin-top: 0;
+    padding: 20px;
+  }
+  .item{
+    margin-right: 0 !important;
   }
   .services_detials > h3 {
     text-align: center;
@@ -920,9 +953,13 @@ p{
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
+
   
   .offerSection {
     padding: 20px 0;
+  }
+  .services .Card1{
+    width: 100%;
   }
   .Card1 {
     width: 100%;
