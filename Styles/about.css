@@ -11,7 +11,7 @@ h4 {
 }
 
 .header .active {
-  color: gold !important;
+  color: #ad8748 !important;
   border-bottom: 2px solid;
 }
 .sidebar {
@@ -55,7 +55,7 @@ h4 {
 }
 
 .header.is-sticky {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   position: fixed;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
   padding: 0;
@@ -98,31 +98,31 @@ h4 {
   /* margin-right: 0; */
 }
 .navOption:hover {
-  color: gold;
+  color: #ad8748;
 }
 
 /* hero section */
 .hersection{
   height: 100%;
   padding: 20px 40px;
-  background-image: url('hero2.jpg');
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-position: right;
+  /* background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+  /* background-size:contain; */
+  /* background-repeat: no-repeat; */
+  /* background-position: right; */
   margin-top: 20px;
   /* background-color:gold; */
   /* opacity: 0.1; */
 }
 .hersection h1{
-  color: gold;
+  color: #ad8748;
   margin-top: 30px;
 }
 .workingtag{
   margin-top: 20px;
-  background-color: gold;
+  background-color: #ad8748;
   padding: 15px 20px;
   border-radius: 30px;
-  color: black;
+  color: white;
   width: fit-content;
   font-size: 14px;
   font-weight: 600;
@@ -130,7 +130,7 @@ h4 {
 }
 
 .headerBorder{
-  border-bottom: 10px solid gold;
+  border-bottom: 10px solid #ad8748;
   width: 165px;
   transition: width 0.3s ease; 
 }
@@ -142,7 +142,7 @@ h4 {
 .heroSectionContent{
   margin-top: 40px;
   text-align: justify;
-  width: 50%;
+  /* width: 50%; */
 }
 .connectus{
   margin-top: 40px;
@@ -156,7 +156,7 @@ h4 {
   text-decoration: none;
 }
 .connectus a:hover{
-  color: gold;
+  color: #ad8748;
 }
 .connectus i {
   margin-top: 3px;
@@ -182,11 +182,35 @@ h4 {
   filter: brightness(50%); /* Adjust the brightness here */
 }
 
+.contactSectionImg{
+  background-image: url("contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  margin: 0;
+  height: 70vh;
+  width: 100%;
+  filter: brightness(50%); /* Adjust the brightness here */
+}
+
+.aboutSectionImg{
+  background-image: url("about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  margin: 0;
+  height: 70vh;
+  width: 100%;
+  filter: brightness(50%); /* Adjust the brightness here */
+}
+
 .whychooseContent{
   margin-bottom: 20px;
 }
 .whychooseContent b{
-  color: gold;
+  color: #ad8748;
   margin-right: 10px;
 }
 
@@ -236,8 +260,6 @@ h4 {
 }
 .aboutDetailsContent > h1 {
   font-weight: 700;
-  /* font-size: 33px; */
-  margin-top: 10px;
 }
 /* ------------------------------- Footer ---------------------------*/
 .footerColor {
@@ -290,8 +312,8 @@ h4 {
   margin-top: 15px;
 }
 .footerIcons i {
-  color: black;
-  background-color: gold;
+  color: white;
+  background-color: #ad8748;
   padding: 5px;
   margin-left: 5px;
   border-radius: 5px;
@@ -537,18 +559,18 @@ p{
 
 
 .orderBtn {
-  background-color: gold;
+  background-color: #ad8748;
   font-family: "Ibarra Real Nova", serif;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 .orderBtn:hover {
-  border: 1px solid gold;
-  color: gold !important;
+  border: 1px solid #ad8748;
+  color: #ad8748 !important;
   font-weight: 600 !important;
 }
 .orderBtn:hover i.fa-brands.fa-whatsapp {
-  color: gold !important;
+  color: #ad8748 !important;
   font-weight: 600;
 }
 
@@ -558,7 +580,7 @@ p{
   /* background-color: red; */
   background-image: url("bg3.png");
   width: 100%;
-  padding: 0px 30px 0 30px;
+  padding: 20px 40px;
   background-repeat: no-repeat;
   background-size: 15%;
   /* z-index: 1; */
@@ -568,7 +590,7 @@ p{
   /* background-color: #F2F8E3; */
   z-index: 0;
   border-radius: 20px;
-  padding: 30px 0 0 30px;
+  /* padding: 30px 0 0 30px; */
 }
 .badge50Off{
   height: fit-content;
@@ -577,7 +599,7 @@ p{
     border-radius: 3px
 }
 .consultWithDoctorCard h3{
-  color: rgb(83, 112, 11);
+  color: #ad8748;
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 25px;
@@ -650,7 +672,8 @@ p{
 }
 
 .greenContainer {
-  background: rgba(254, 245, 198, 0.589);
+  /* background: rgba(254, 245, 198, 0.589); */
+  background-color: #f4ec9ba3;
   padding: 40px 30px 40px 30px;
 }
 
@@ -753,7 +776,7 @@ p{
     font-size: 20px;
     font-weight: bold;
     color: black;
-    background: gold;
+    background: #ad8748;
     padding: 10px;
     width: fit-content;
   }
@@ -785,13 +808,17 @@ p{
 .hersection{
   /* filter: brightness(0.4); */
   background-position: bottom;
+  padding: 20px;
+  margin-top: 0;
 }
 .overlapColumn {
   width: 50%;
   align-items: center;
   justify-content: center;
 }
-
+.aboutProductsContainer > h1{
+  margin-left: 0 !important;
+}
 .imgMobileBlock{
   display: block;
   width: 100%;
@@ -801,7 +828,13 @@ p{
 .imgMobileHide{
   display: none;
 }
-
+.item{
+  margin-left: 0 !important;
+  height: 300px !important;
+}
+.headerBorder{
+  margin-left: 0 !important;
+}
   .mobileAlignCenter {
     justify-content: center;
     display: flex;
@@ -899,6 +932,16 @@ p{
     background-position: top;
     height: 31vh;
   }
+  .aboutSectionImg {
+    background-size: contain;
+    background-position: top;
+    height: 31vh;
+  }
+  .contactSectionImg{
+    background-size: contain;
+    background-position: top;
+    height: 31vh;
+  }
   .txt {
     position: absolute;
     top: 25%;
@@ -950,6 +993,9 @@ p{
   .navLogo {
     display: none;
   }
+  .consultWithDoctorCard{
+    padding: 20px;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -992,4 +1038,43 @@ p{
   text-align: center;
   background-color: white;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.item > img{
+  width: 200px !important;
+  height: 100px;
+}
+.item > span {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+
+
+.know_more{
+  display: flex;
+  justify-content: space-between;
+  color: #ad8748;
+}
+.know_more > a {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    line-height: 0;
+    height: 33px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+}
+.know_more > a:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
 }
