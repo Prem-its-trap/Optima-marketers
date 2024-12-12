@@ -673,7 +673,13 @@ p{
 
 .greenContainer {
   /* background: rgba(254, 245, 198, 0.589); */
-  background-color: #f4ec9ba3;
+  /* background-color: #f4ec9ba3; */
+  background-image: url('whyChooseUs.jpg');
+  background-size: cover;
+    /* background-position: right; */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
   padding: 40px 30px 40px 30px;
 }
 
@@ -928,17 +934,17 @@ p{
     text-align: justify;
   }
   .heroSectionimg {
-    background-size: contain;
+    background-size: cover;
     background-position: top;
     height: 31vh;
   }
   .aboutSectionImg {
-    background-size: contain;
+    background-size: cover;
     background-position: top;
     height: 31vh;
   }
   .contactSectionImg{
-    background-size: contain;
+    background-size: cover;
     background-position: top;
     height: 31vh;
   }
